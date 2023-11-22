@@ -1,0 +1,129 @@
+.client_list_header {
+  display: grid;
+  grid-template-columns: 11% 21% 9% 10% 26% 10% 13%;
+  flex: 0 1 auto;
+  z-index: 1;
+  overflow: visible;
+}
+
+.item {
+  margin: 0;
+  padding: 0.625rem;
+  color: var(--Input-Text-Active, #333);
+  font-family: "Sora";
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-top: none;
+  border-right: 0.0625rem solid #eee;
+  border-bottom: 0.0625rem solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.left_item {
+  composes: item;
+  justify-content: center;
+  gap: 0.625rem;
+  overflow: visible;
+}
+
+.right_item {
+  composes: item;
+  border-right: none;
+}
+
+.esg_score_item {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.esg_score_title {
+  text-align: center;
+  padding: 0.625rem;
+  color: #333;
+  font-family: "Sora";
+  font-size: 0.625rem;
+  font-weight: 500;
+  margin: 0;
+  border-top: none;
+  border-right: 0.0625rem solid #eee;
+  border-bottom: 0.0625rem solid #eee;
+}
+
+.esg_score_subtitles_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: #f8f8f8;
+  border-top: none;
+  border-right: 0.0625rem solid #eee;
+  border-bottom: 0.0625rem solid #eee;
+}
+
+.esg_score_subtitle {
+  text-align: center;
+  margin: 0;
+  padding: 0.625rem;
+  color: var(--Secondary-Text, #6f6f6f);
+  font-family: "Montserrat";
+  font-size: 0.625rem;
+  font-weight: 500;
+}
+
+.button {
+  border-radius: 0.1875rem;
+  border: 0.0625rem solid var(--borders-dividers, #eee);
+  background: var(--Input-Box-Background, #f8f8f8);
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+  padding: 0.3125rem;
+  height: 1.875rem;
+}
+
+.button_text {
+  color: var(--Secondary-Text, #6f6f6f);
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.filters_div {
+  position: relative;
+  overflow: visible;
+}
+
+.filters_div:hover .filters {
+  display: block;
+}
+
+.filters_title {
+  color: var(--Input-Text-Active, #333);
+  font-family: "Sora";
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 0.9375rem;
+  align-items: center;
+  display: flex;
+}
+
+.clear {
+  color: var(--Error-Red, #f91d0a);
+  font-family: 'Montserrat';
+  font-size: 0.6875rem;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.clear:hover {
+  cursor: pointer;
+}
+
+.filters {
+  border-radius: 0.3125rem;
+  position: absolute;
+  width: 12.5rem;
+  background: var(--White, #fff);
+  filter: drop-shadow(0 0 0.9375rem rgba(0, 0, 0, 0.15));
+  display: none;
+  z-index: 2;
+}

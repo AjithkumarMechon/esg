@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  padding: 0.625rem 3rem;
+  border-radius: 0 0 0.3125rem 0.3125rem;
+  background: var(--White, #fff);
+  border-top: 0.0625rem solid #EEE;
+  margin-bottom: 0.9375rem;
+}
+
+.buttons_div {
+  display: flex;
+  gap: 0.625rem;
+  margin-right: 0.625rem;
+  margin-left: auto;
+}

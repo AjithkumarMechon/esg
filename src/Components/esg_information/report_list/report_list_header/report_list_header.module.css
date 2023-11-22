@@ -1,0 +1,29 @@
+.report_list_header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-radius: 0.3125rem 0.3125rem 0 0;
+  border-bottom: 0.0625rem solid #EEE;
+  overflow: visible;
+}
+
+.report_list_header_item {
+  margin: 0;
+  color: var(--Input-Text-Active, #333);
+  font-family: "Sora";
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.9375rem;
+  background: white;
+  border-left: 0.0625rem solid #EEE;
+  border-top: none;
+}
+
+.report_list_header_left_item {
+  composes: report_list_header_item;
+  border-left: none;
+}
+
+.report_list_header_right_item {
+  composes: report_list_header_item;
+  border-right: none;
+}

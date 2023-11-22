@@ -1,0 +1,15 @@
+.client_list_footer {
+  padding: 0.625rem 1.875rem;
+  background: white;
+  border-top: 0.0625rem solid #eee;
+  display: flex;
+  align-items: center;
+  flex: 0 1 auto;
+  overflow: visible;
+}
+
+.text {
+  color: var(--Secondary-Text, #6f6f6f);
+  font-size: 0.75rem;
+  font-weight: 500;
+}

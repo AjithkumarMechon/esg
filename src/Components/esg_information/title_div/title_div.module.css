@@ -1,0 +1,82 @@
+.title_div {
+  margin: 0.9375rem 0;
+  background: white;
+  padding: 0.625rem 1.25rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.3125rem;
+  gap: 1rem;
+  overflow: visible;
+}
+
+.title_div:hover span {
+  cursor: pointer;
+}
+
+.company_name {
+  margin: 0;
+  color: var(--Input-Text-Active, #333);
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.right_items_div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: right;
+  gap: 0.625rem;
+  overflow: visible;
+}
+
+.right_item {
+  border-radius: 0.1875rem;
+  background: var(--input-box-background, #f8f8f8);
+  padding: 0.625rem;
+  color: var(--secondary-text, #6f6f6f);
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.fyq {
+  align-items: center;
+  display: flex;
+  z-index: 0;
+  gap: 0.3125rem;
+}
+
+.right_item:hover .fyq_filter {
+  display: block;
+}
+
+.fyq_filter {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  overflow: visible;
+  background: white;
+  width: 18.75rem;
+  top: 2rem;
+  right: 0;
+  filter: drop-shadow(0 0 0.9375rem rgba(0, 0, 0, 0.15));
+  border-radius: 0.3125rem;
+}
+
+.fyq_dd {
+  margin: 1.25rem;
+}
+
+.title {
+  color: var(--Input-Text-Active, #333);
+  font-family: 'Sora';
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 0.3125rem;
+}

@@ -1,0 +1,40 @@
+.indicator {
+  display: grid;
+  grid-template-columns: 35% 20% 45%;
+  background: #fcfbfc;
+  border-bottom: 0.0625rem solid #eee;
+}
+
+.indicator_item {
+  color: var(--secondary-text, #6f6f6f);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  padding: 1.875rem 2.3125rem;
+}
+
+.comment_box {
+  border-radius: 0.1875rem;
+  border: 0.0625rem solid var(--borders-dividers, #eee);
+  background: var(--white, #fff);
+  padding: 0.625rem 1.25rem;
+  width: 100%;
+  resize: none;
+  color: var(--secondary-text, #6f6f6f);
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.comment_box::placeholder {
+  color: var(--input-text, #d8d8d8);
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.comment_box:focus {
+  outline: none !important;
+  border: 0.0625rem solid var(--borders-dividers, #eee);
+}

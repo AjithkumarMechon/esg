@@ -1,0 +1,23 @@
+
+.input {
+  border-radius: 0.1875rem;
+  border: 0.0625rem solid var(--borders-dividers, #eee);
+  background: var(--white, #fff);
+  width: 100%;
+  padding: 0.625rem;
+  color: var(--input-text-active, #333);
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.input:focus {
+  outline: none !important;
+}
+
+.input::placeholder {
+  color: var(--input-text, #d8d8d8);
+  font-family: "Montserrat";
+  font-size: 0.75rem;
+  font-weight: 500;
+}

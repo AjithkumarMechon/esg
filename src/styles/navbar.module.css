@@ -1,0 +1,145 @@
+/* navbar styles */
+.navbar {
+  width: 100%;
+  background: var(--white, #fff);
+  box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 2rem;
+  z-index: 3;
+  overflow: visible;
+}
+
+.navbar span:hover .boxes_popup .boxesTemplate_div {
+  cursor: pointer;
+  display: block;
+}
+
+.right_items_div {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 1rem;
+  justify-content: right;
+  overflow: visible;
+}
+
+.profile_letter {
+  color: var(--vivriti-blue, #1900c0);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50%;
+  background: #eae7fe;
+  border: 0.09375rem solid var(--vivriti-blue, #1900c0);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_div {
+  position: relative;
+  overflow: visible;
+}
+
+.profile_div:hover .profile_popup {
+  display: block;
+}
+
+.profile_popup {
+  position: absolute;
+  right: 0;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0 0 0.625rem 0 rgba(25, 0, 192, 0.2);
+  min-width: 15.625rem;
+  display: none;
+  z-index: 1;
+  padding: 0.625rem 1.25rem;
+}
+
+.username {
+  color: var(--vivriti-blue, #1900c0);
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.inner_div {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.boxgrid {
+  display: grid;
+}
+.boxes_icon_div {
+  overflow: visible;
+}
+.boxes_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxes_popup {
+  position: fixed;
+  left: 1rem;
+}
+.image_logo {
+  padding: 0.525rem;
+  width: 3rem;
+  height: 3rem;
+}
+.box_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_content_div {
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  margin: 0.2rem;
+}
+.h3_text {
+  font-size: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0 0 0.625rem 0 rgba(25, 0, 192, 0.2);
+  min-width: 15.625rem;
+  z-index: 1;
+  padding: 0.625rem 1.25rem;
+  margin: 0.625rem 1.25rem;
+}
+.boxesTemplate_div {
+  display: none;
+}
+.change_password,
+.logout {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  margin: 0.2rem 0;
+  padding: 0rem;
+  padding-left: 1rem;
+}
+.change_password:hover,
+.logout:hover {
+  background-color: var(--vivriti-blue, #1900c0);
+  color: white;
+}
+.change_password p,
+.logout p {
+  padding-left: 1rem;
+}

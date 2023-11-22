@@ -1,0 +1,136 @@
+{
+  "statusCode": 200,
+  "uri": "/esg/api/v1/clientListing",
+  "message": null,
+  "responseBody": {
+    "totalClientCount": 96,
+    "clientList": {
+      "content": [
+        {
+          "entityMasterId": 1,
+          "clientDetailsId": 1,
+          "entityName": "AKARA CAPITAL ADVISORS PRIVATE LIMITED",
+          "entityDefinition": "Institutional",
+          "sector": "FINANCIAL",
+          "esgScore": "SA3",
+          "esgRM": "Shwetha",
+          "reviewedBy": "Aravindh Kumar",
+          "vamFlag": true,
+          "vcplFlag": true,
+          "lastUpdatedDate": "11-05-2023",
+          "nextDueDate": "10-05-2023"
+        },
+        {
+          "entityMasterId": 2,
+          "clientDetailsId": 2,
+          "entityName": "AKME FINTRADE (INDIA) LIMITED",
+          "entityDefinition": "Institutional",
+          "sector": "FINANCIAL",
+          "esgScore": "SA4",
+          "esgRM": "Reeshika",
+          "reviewedBy": "Smitha",
+          "vamFlag": false,
+          "vcplFlag": true,
+          "lastUpdatedDate": "11-05-2023",
+          "nextDueDate": "09-05-2023"
+        },
+        {
+          "entityMasterId": 3,
+          "clientDetailsId": 3,
+          "entityName": "AKARA CAPITAL  PRIVATE LIMITED",
+          "entityDefinition": "Institutional",
+          "sector": "FINANCIAL",
+          "esgScore": "SA5",
+          "esgRM": "Shwetha",
+          "reviewedBy": "Aravindh Kumar",
+          "vamFlag": true,
+          "vcplFlag": true,
+          "lastUpdatedDate": "11-05-2023",
+          "nextDueDate": "08-05-2023"
+        },
+        {
+          "entityMasterId": 4,
+          "clientDetailsId": 4,
+          "entityName": "AKME FINTRADE (INDIA) LIMITED",
+          "entityDefinition": "Institutional",
+          "sector": "FINANCIAL",
+          "esgScore": "SA4",
+          "esgRM": "Reeshika",
+          "reviewedBy": "Smitha",
+          "vamFlag": true,
+          "vcplFlag": true,
+          "lastUpdatedDate": "11-05-2023",
+          "nextDueDate": "07-05-2023"
+        },
+        {
+          "entityMasterId": 5,
+          "clientDetailsId": 5,
+          "entityName": "AKME FINTRADE (INDIA) LIMITED",
+          "entityDefinition": "Institutional",
+          "sector": "FINANCIAL",
+          "esgScore": "SA4",
+          "esgRM": "Reeshika",
+          "reviewedBy": "Aravindh Kumar",
+          "vamFlag": true,
+          "vcplFlag": false,
+          "lastUpdatedDate": "11-05-2023",
+          "nextDueDate": "06-05-2023"
+        },
+        {
+          "entityMasterId": 6,
+          "clientDetailsId": 6,
+          "entityName": "AKME FINTRADE (INDIA) LIMITED",
+          "entityDefinition": "Institutional",
+          "sector": "FINANCIAL",
+          "esgScore": "SA4",
+          "esgRM": "Reeshika",
+          "reviewedBy": "Smitha",
+          "vamFlag": true,
+          "vcplFlag": true,
+          "lastUpdatedDate": "10-05-2023",
+          "nextDueDate": "05-05-2023"
+        },
+        {
+          "entityMasterId": 7,
+          "clientDetailsId": 7,
+          "entityName": "AKME FINTRADE (INDIA) LIMITED",
+          "entityDefinition": "Institutional",
+          "sector": "FINANCIAL",
+          "esgScore": "SA4",
+          "esgRM": "Reeshika",
+          "reviewedBy": "Aravindh Kumar",
+          "vamFlag": true,
+          "vcplFlag": true,
+          "lastUpdatedDate": "09-05-2023",
+          "nextDueDate": "04-05-2023"
+        }
+      ],
+      "pageable": {
+        "sort": {
+          "empty": true,
+          "sorted": false,
+          "unsorted": true
+        },
+        "offset": 0,
+        "pageNumber": 0,
+        "pageSize": 10,
+        "paged": true,
+        "unpaged": false
+      },
+      "totalPages": 1,
+      "totalElements": 7,
+      "last": true,
+      "number": 0,
+      "sort": {
+        "empty": true,
+        "sorted": false,
+        "unsorted": true
+      },
+      "size": 10,
+      "numberOfElements": 7,
+      "first": true,
+      "empty": false
+    }
+  },
+  "error": false
+}

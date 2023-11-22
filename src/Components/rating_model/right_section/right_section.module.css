@@ -1,0 +1,17 @@
+.right_section {
+  padding: 1.25rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background: var(--input-box-background, #f8f8f8);
+}
+
+.main_div {
+  height: 100%;
+  overflow: scroll;
+}
+
+.main_div::-webkit-scrollbar {
+  display: none;
+}

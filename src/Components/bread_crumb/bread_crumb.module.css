@@ -1,0 +1,23 @@
+.bread_crumb {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  overflow: visible;
+}
+
+.item {
+  color: var(--secondary-text, #6f6f6f);
+  font-size: 0.6875rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.last_item {
+  composes: item;
+  color: #BDBDBD;
+  margin: 0;
+}

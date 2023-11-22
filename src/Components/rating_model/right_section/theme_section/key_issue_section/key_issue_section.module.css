@@ -1,0 +1,30 @@
+.key_issue {
+}
+
+.key_issue_title_div {
+  border-radius: 0.1875rem;
+  background: #fffcf4;
+  padding: 0.9375rem 2.3125rem;
+  display: flex;
+  align-items: center;
+}
+
+.key_issue_title {
+  margin: 0;
+  color: var(--viv-yellow, #f7bf21);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.indicator_header {
+  background: var(--input-box-background, #f8f8f8);
+  display: grid;
+  grid-template-columns: 35% 20% 45%;
+}
+
+.indicator_header_item {
+  color: var(--secondary-text, #6f6f6f);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.625rem 2.3125rem;
+}

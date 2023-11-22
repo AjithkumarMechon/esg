@@ -1,0 +1,21 @@
+.inner {
+  width: 86.5%;
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  border-left: 0.15625rem solid #EEE;
+}
+
+.inner:hover {
+  background: var(--background-light-viv-blue, #f8f6ff);
+  cursor: pointer;
+}
+
+.title {
+  color: var(--secondary-text, #6F6F6F);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  margin: 0;
+}
+

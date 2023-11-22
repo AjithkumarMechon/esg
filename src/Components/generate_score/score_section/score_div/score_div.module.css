@@ -1,0 +1,63 @@
+.score_div {
+  display: grid;
+  grid-template-columns: 1fr 10rem 1fr;
+  border-radius: 0.1875rem;
+  background: #fcfbfc;
+  margin: 0.625rem;
+}
+div.gaugeComponent svg {
+  width: 22.5rem !important;
+}
+
+div .gaugeComponent svg g g:nth-child(3) text {
+  display: none;
+}
+div.gaugeComponent svg g g:nth-child(5) text,
+div.gaugeComponent svg g g:nth-child(7) text,
+div.gaugeComponent svg g g:nth-child(9) text,
+div.gaugeComponent svg g g:nth-child(11) text,
+div.gaugeComponent svg g g:nth-child(13) text,
+div.gaugeComponent svg g g:nth-child(15) text,
+div.gaugeComponent svg g g:nth-child(17) text {
+  font-size: 0.4rem !important;
+}
+
+div.gaugeComponent svg g g:nth-child(4) text,
+div.gaugeComponent svg g g:nth-child(6) text,
+div.gaugeComponent svg g g:nth-child(8) text,
+div.gaugeComponent svg g g:nth-child(10) text,
+div.gaugeComponent svg g g:nth-child(12) text,
+div.gaugeComponent svg g g:nth-child(14) text,
+div.gaugeComponent svg g g:nth-child(16) text {
+  display: none !important;
+}
+
+.title_div {
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+  padding: 0.625rem;
+}
+
+.title {
+  color: var(--Secondary-Text, #6f6f6f);
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.chart_div {
+  padding: 0rem;
+  width: 110%;
+}
+
+.score_text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--Input-Text-Active, #333);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.625rem;
+}

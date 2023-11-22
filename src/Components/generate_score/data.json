@@ -1,0 +1,1215 @@
+{
+    "statusCode": 200,
+    "uri": "/esg/api/v1/esgModel",
+    "message": null,
+    "responseBody": {
+        "companyName": "KRAZYBEE SERVICES PRIVATE LIMITED",
+        "financialYear": "2023",
+        "quarter": "Q1",
+        "nicCode": "71",
+        "industryType": "Engineering and technical activities",
+        "categoryIndustryMapList": [
+            {
+                "id": 4157,
+                "category": {
+                    "id": 1,
+                    "name": "Environment",
+                    "code": "ENV"
+                },
+                "themeIndustryMaps": [
+                    {
+                        "id": 4158,
+                        "theme": {
+                            "id": 1,
+                            "name": "Environmental Impact"
+                        },
+                        "keyIssueThemeMaps": [
+                            {
+                                "id": 4159,
+                                "keyIssue": {
+                                    "id": 3,
+                                    "name": "GHG emissions"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 4160,
+                                        "indicator": {
+                                            "id": 4,
+                                            "description": "Does the company measure and monitor its scope 3 emissions through business travel?",
+                                            "code": "GHGP003",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 4269,
+                                        "indicator": {
+                                            "id": 5,
+                                            "description": "Does the company have a climate change risks and opportunities management process?",
+                                            "code": "GHGP005",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 4303,
+                                        "indicator": {
+                                            "id": 6,
+                                            "description": "Does the company have a policy or strategy to reduce greenhouse gas (GHG) emissions?",
+                                            "code": "GHGS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 4344,
+                                        "indicator": {
+                                            "id": 7,
+                                            "description": "Does the company have programs or initiatives to reduce greenhouse gas (GHG) emissions?",
+                                            "code": "GHGP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7966,
+                                        "indicator": {
+                                            "id": 109,
+                                            "description": "Does the company monitor and measure their GHG emissions (scope 1 & scope 2)?",
+                                            "code": "GHGR001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 4434,
+                                "keyIssue": {
+                                    "id": 4,
+                                    "name": "Waste"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 4435,
+                                        "indicator": {
+                                            "id": 9,
+                                            "description": "Does the company have programs or initiatives to reduce any types of waste?",
+                                            "code": "WASP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 8004,
+                                        "indicator": {
+                                            "id": 110,
+                                            "description": "Does the company have a policy or strategy to reduce waste?",
+                                            "code": "WASS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4591,
+                        "theme": {
+                            "id": 2,
+                            "name": "Sustainablity Initiatives"
+                        },
+                        "keyIssueThemeMaps": [
+                            {
+                                "id": 4592,
+                                "keyIssue": {
+                                    "id": 6,
+                                    "name": "Energy efficiency"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 4593,
+                                        "indicator": {
+                                            "id": 16,
+                                            "description": "Does the company have a policy or strategy to reduce overall energy usage?",
+                                            "code": "ENES001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 4706,
+                                        "indicator": {
+                                            "id": 17,
+                                            "description": "Does the company have programs or initiatives to reduce overall energy usage?",
+                                            "code": "ENEP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 4747,
+                                        "indicator": {
+                                            "id": 18,
+                                            "description": "Renewable energy consumed as a percentage of total energy consumed for the fiscal year",
+                                            "code": "ENER009",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 4803,
+                                "keyIssue": {
+                                    "id": 7,
+                                    "name": "Environment management"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 4804,
+                                        "indicator": {
+                                            "id": 21,
+                                            "description": "Does the company have an environment management system ? ",
+                                            "code": "ENVP002",
+                                            "unit": {
+                                                "id": 136,
+                                                "name": "DROPDOWN",
+                                                "code": "MCQ",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 4906,
+                                "keyIssue": {
+                                    "id": 8,
+                                    "name": "Green Product/Service"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 4907,
+                                        "indicator": {
+                                            "id": 24,
+                                            "description": "Does the company have products or services which are considered as environmentally friendly?",
+                                            "code": "GRPP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5134,
+                "category": {
+                    "id": 2,
+                    "name": "Social",
+                    "code": "SOC"
+                },
+                "themeIndustryMaps": [
+                    {
+                        "id": 5135,
+                        "theme": {
+                            "id": 4,
+                            "name": "Employee Development & Community Support"
+                        },
+                        "keyIssueThemeMaps": [
+                            {
+                                "id": 5136,
+                                "keyIssue": {
+                                    "id": 11,
+                                    "name": "Community support & development"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 5137,
+                                        "indicator": {
+                                            "id": 32,
+                                            "description": "Does the company have initiatives or programs on community services?",
+                                            "code": "COSP001",
+                                            "unit": {
+                                                "id": 136,
+                                                "name": "DROPDOWN",
+                                                "code": "MCQ",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5286,
+                                        "indicator": {
+                                            "id": 33,
+                                            "description": "Percentage of CSR Spend to average profit for 3 years",
+                                            "code": "COSR001",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 5328,
+                                "keyIssue": {
+                                    "id": 12,
+                                    "name": "Employee development"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 5329,
+                                        "indicator": {
+                                            "id": 34,
+                                            "description": "Does the company have a strategy or policy on training and career development?",
+                                            "code": "EMDS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5391,
+                                        "indicator": {
+                                            "id": 35,
+                                            "description": "Does the company have initiatives or programs for training and career development?",
+                                            "code": "EMDP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5440,
+                                        "indicator": {
+                                            "id": 36,
+                                            "description": "Company's average employee performance appraisal rate",
+                                            "code": "EMDR002",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5477,
+                                        "indicator": {
+                                            "id": 37,
+                                            "description": "Percentage of employees receiving training to total employees",
+                                            "code": "EMDR001",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5484,
+                                        "indicator": {
+                                            "id": 38,
+                                            "description": "Does the company conduct employee satisfaction survey?",
+                                            "code": "EMDP003",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 5571,
+                                "keyIssue": {
+                                    "id": 13,
+                                    "name": "Employee safety"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 5572,
+                                        "indicator": {
+                                            "id": 40,
+                                            "description": "Does the company have a strategy or policy on health and safety?",
+                                            "code": "EMSS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5629,
+                                        "indicator": {
+                                            "id": 41,
+                                            "description": "Does the company have initiatives and training programs on health and safety?",
+                                            "code": "EMSP003",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5670,
+                                        "indicator": {
+                                            "id": 42,
+                                            "description": "Does the company have a health and safety team?",
+                                            "code": "EMSP004",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5704,
+                                        "indicator": {
+                                            "id": 43,
+                                            "description": "Does the company have safety measures such as fire alarms, smoke alarms and fire extinguishers?",
+                                            "code": "EMSP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5769,
+                                        "indicator": {
+                                            "id": 46,
+                                            "description": "Employees fatalities for the year",
+                                            "code": "EMSR004",
+                                            "unit": {
+                                                "id": 156,
+                                                "name": "NUMBER",
+                                                "code": "Number",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 5803,
+                                "keyIssue": {
+                                    "id": 14,
+                                    "name": "Employement quality"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 5804,
+                                        "indicator": {
+                                            "id": 47,
+                                            "description": "Does the company have a strategy or policy on fair compensation?",
+                                            "code": "EMQS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5847,
+                                        "indicator": {
+                                            "id": 48,
+                                            "description": "Does the company have an employee grievance redressal mechanism in place?",
+                                            "code": "EMQP004",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5906,
+                                        "indicator": {
+                                            "id": 50,
+                                            "description": "Percentage of trade union representatives",
+                                            "code": "EMQR002",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5930,
+                                        "indicator": {
+                                            "id": 51,
+                                            "description": "Employee turnover percentage of field employees during the year",
+                                            "code": "EMQR004",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 5971,
+                                        "indicator": {
+                                            "id": 52,
+                                            "description": "Employee turnover percentage of non-field employees during the year",
+                                            "code": "EMQR005",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 6012,
+                                "keyIssue": {
+                                    "id": 15,
+                                    "name": "Equal Opportunity"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 6013,
+                                        "indicator": {
+                                            "id": 53,
+                                            "description": "Does the company have a policy on diversity and inclusion?",
+                                            "code": "EQUS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6078,
+                                        "indicator": {
+                                            "id": 54,
+                                            "description": "Does the company have programs on diversity and inclusion?",
+                                            "code": "EQUP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6104,
+                                        "indicator": {
+                                            "id": 55,
+                                            "description": "Percentage of women in senior management ",
+                                            "code": "EQUR004",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6145,
+                                        "indicator": {
+                                            "id": 56,
+                                            "description": "Percentage of women employees to total employees",
+                                            "code": "EQUR002",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6178,
+                                        "indicator": {
+                                            "id": 58,
+                                            "description": "Does the company grant maternity leave to its employees?",
+                                            "code": "EMQP002",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6208,
+                                        "indicator": {
+                                            "id": 59,
+                                            "description": "Does the company grant paternity leave to its employees?",
+                                            "code": "EMQP003",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6214,
+                                        "indicator": {
+                                            "id": 60,
+                                            "description": "Percentage of differently abled employees to total employees",
+                                            "code": "EQUR001",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6227,
+                                        "indicator": {
+                                            "id": 61,
+                                            "description": "What is the average percentage difference between the remuneration of the women and men (excluding contract employees) for top management level employees?",
+                                            "code": "EQUR005",
+                                            "unit": {
+                                                "id": 136,
+                                                "name": "DROPDOWN",
+                                                "code": "MCQ",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6268,
+                                        "indicator": {
+                                            "id": 62,
+                                            "description": "What is the average percentage difference between the remuneration of the women and men (excluding contract employees) for all employees (excluding top management)?",
+                                            "code": "EQUR006",
+                                            "unit": {
+                                                "id": 136,
+                                                "name": "DROPDOWN",
+                                                "code": "MCQ",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 6313,
+                                "keyIssue": {
+                                    "id": 16,
+                                    "name": "Human rights"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 6314,
+                                        "indicator": {
+                                            "id": 63,
+                                            "description": "Does the company have a strategy or policy on human rights? ",
+                                            "code": "HUMS002",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6391,
+                                        "indicator": {
+                                            "id": 64,
+                                            "description": "Does the company have a policy on sexual harrassment?",
+                                            "code": "HUMS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7544,
+                        "theme": {
+                            "id": 3,
+                            "name": "Customer & Product Responsibility"
+                        },
+                        "keyIssueThemeMaps": [
+                            {
+                                "id": 7545,
+                                "keyIssue": {
+                                    "id": 24,
+                                    "name": "Product Quality"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 7546,
+                                        "indicator": {
+                                            "id": 88,
+                                            "description": "Does the company have an internal quality management system ?",
+                                            "code": "PRQP004",
+                                            "unit": {
+                                                "id": 136,
+                                                "name": "DROPDOWN",
+                                                "code": "MCQ",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7641,
+                                        "indicator": {
+                                            "id": 89,
+                                            "description": "Does the company have a strategy or policy on product or service quality?",
+                                            "code": "PRQS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7679,
+                                        "indicator": {
+                                            "id": 90,
+                                            "description": "Does the company have initiatives or programs for product or service quality?",
+                                            "code": "PRQP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 7759,
+                                "keyIssue": {
+                                    "id": 25,
+                                    "name": "Product responsibility"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 7760,
+                                        "indicator": {
+                                            "id": 97,
+                                            "description": "Does the company have a platform for customers to register complaints, feedback and suggestions?",
+                                            "code": "PROP012",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7820,
+                                        "indicator": {
+                                            "id": 98,
+                                            "description": "Does the company issue a code of conduct for its vendors/suppliers?",
+                                            "code": "PROP014",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7872,
+                                        "indicator": {
+                                            "id": 104,
+                                            "description": "Does the company conduct client satisfaction survey?",
+                                            "code": "PROP016",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6444,
+                "category": {
+                    "id": 3,
+                    "name": "Corporate Governance",
+                    "code": "CG"
+                },
+                "themeIndustryMaps": [
+                    {
+                        "id": 6445,
+                        "theme": {
+                            "id": 5,
+                            "name": "Business Ethics & Board Functioning"
+                        },
+                        "keyIssueThemeMaps": [
+                            {
+                                "id": 6446,
+                                "keyIssue": {
+                                    "id": 17,
+                                    "name": "Business ethics"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 6447,
+                                        "indicator": {
+                                            "id": 65,
+                                            "description": "Does the company have any initiative, programs for improvement of business ethics and prevention of bribery,corruption and/or money laundering?",
+                                            "code": "BUSP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6601,
+                                        "indicator": {
+                                            "id": 67,
+                                            "description": "Does the company have a policy on business ethics and anti-corruption?",
+                                            "code": "BUSS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6642,
+                                        "indicator": {
+                                            "id": 68,
+                                            "description": "Does the company have a business continuity plan?",
+                                            "code": "PROP013",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6683,
+                                        "indicator": {
+                                            "id": 69,
+                                            "description": "Does the company have a whistle blower protection policy?",
+                                            "code": "BUSP010",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 6728,
+                                "keyIssue": {
+                                    "id": 18,
+                                    "name": "Board Structure & Functioning"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 6729,
+                                        "indicator": {
+                                            "id": 70,
+                                            "description": "Percentage of independent board members at the end of the fiscal year",
+                                            "code": "BOIR002",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6802,
+                                        "indicator": {
+                                            "id": 71,
+                                            "description": "Percentage of non executive board members at the end of the fiscal year",
+                                            "code": "BOIR004",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6845,
+                                        "indicator": {
+                                            "id": 72,
+                                            "description": "Average attendance percentage for all board meetings conducted in the fiscal year",
+                                            "code": "BOSR008",
+                                            "unit": {
+                                                "id": 142,
+                                                "name": "PERCENTAGE",
+                                                "code": "Percentage",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 6890,
+                                "keyIssue": {
+                                    "id": 19,
+                                    "name": "Board Diversity"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 6891,
+                                        "indicator": {
+                                            "id": 73,
+                                            "description": "Does the company have a policy on board gender diversity?",
+                                            "code": "BODS001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 6968,
+                                        "indicator": {
+                                            "id": 74,
+                                            "description": "Number of board members who are female at the end of the fiscal year",
+                                            "code": "BODR001",
+                                            "unit": {
+                                                "id": 156,
+                                                "name": "NUMBER",
+                                                "code": "Number",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 7013,
+                                "keyIssue": {
+                                    "id": 20,
+                                    "name": "Committee Functioning"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 7014,
+                                        "indicator": {
+                                            "id": 75,
+                                            "description": "Does the company have a risk management committee?",
+                                            "code": "COMP003",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7091,
+                                        "indicator": {
+                                            "id": 76,
+                                            "description": "Does the company have a remuneration and nomination committee?",
+                                            "code": "COMP004",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7132,
+                                        "indicator": {
+                                            "id": 77,
+                                            "description": "Does the company have an audit committee?",
+                                            "code": "COMP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7173,
+                                        "indicator": {
+                                            "id": 78,
+                                            "description": "Does the company have a Corporate Social Responsibility (CSR) committee?",
+                                            "code": "COMP002",
+                                            "unit": {
+                                                "id": 136,
+                                                "name": "DROPDOWN",
+                                                "code": "MCQ",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 7218,
+                                "keyIssue": {
+                                    "id": 21,
+                                    "name": "Financial Audit & Control"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 7219,
+                                        "indicator": {
+                                            "id": 79,
+                                            "description": "Does the external auditor issue an unqualified opinion on the company's financial statements at the end of the fiscal year being evaluated?",
+                                            "code": "FINP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7300,
+                        "theme": {
+                            "id": 6,
+                            "name": "ESG Reporting"
+                        },
+                        "keyIssueThemeMaps": [
+                            {
+                                "id": 7301,
+                                "keyIssue": {
+                                    "id": 22,
+                                    "name": "ESG Reporting"
+                                },
+                                "indicatorKeyIssueMap": [
+                                    {
+                                        "id": 7302,
+                                        "indicator": {
+                                            "id": 80,
+                                            "description": "Does the company report its environmental, social and corporate governance performance?",
+                                            "code": "ESGP001",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7415,
+                                        "indicator": {
+                                            "id": 81,
+                                            "description": "Does the company map the United Nations Sustainable development Goals (UN SDG) ?",
+                                            "code": "ESGP002",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    },
+                                    {
+                                        "id": 7457,
+                                        "indicator": {
+                                            "id": 83,
+                                            "description": "Does the company have a do no harm strategy?",
+                                            "code": "ESGP004",
+                                            "unit": {
+                                                "id": 135,
+                                                "name": "RADIO",
+                                                "code": "Yes/No",
+                                                "type": "ESGResponse"
+                                            }
+                                        },
+                                        "active": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "error": false
+}

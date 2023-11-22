@@ -1,0 +1,27 @@
+.otp_textbox {
+  width: 3rem;
+  text-align: center;
+  margin: 0 0.5rem;
+  border-radius: 0.625rem;
+  border: 0.0625rem solid var(--Borders-and-Dividers, #eee);
+  padding: 0.625rem;
+  color: var(--Secondary-Text, #6f6f6f);
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 500;
+}
+.otp_textbox:focus {
+  outline: none !important;
+}
+.button {
+  background-color: white;
+  color: blue;
+  border: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem 1.3rem 0;
+  padding: 0 6rem;
+  cursor: pointer;
+}

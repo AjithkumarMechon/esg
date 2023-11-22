@@ -1,0 +1,47 @@
+.normal {
+  border-radius: 0.1875rem;
+  font-family: "Montserrat";
+  border: 0.0625rem solid var(--viv-blue, #1900c0);
+  padding: 0.625rem 1.875rem;
+  color: var(--viv-blue, #1900c0);
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.normal:hover {
+  background: var(--background-light-viv-blue, #f8f6ff);
+  cursor: pointer;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3125rem;
+  border-radius: 0.1875rem;
+  font-family: "Montserrat";
+  background: var(--viv-blue, #1900c0);
+  padding: 0.625rem 1.875rem;
+  color: var(--white, #fff);
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: none;
+}
+
+.active:hover {
+  cursor: pointer;
+}
+
+.inactive {
+  border-radius: 0.1875rem;
+  background: var(--input-box-background, #f8f8f8);
+  padding: 0.625rem 1.875rem;
+  color: var(--input-text, #d8d8d8);
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: none;
+}

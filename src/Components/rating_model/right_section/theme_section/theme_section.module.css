@@ -1,0 +1,40 @@
+.theme_section {
+  margin-bottom: 1.25rem;
+}
+
+.theme_title_div {
+  border-radius: 0.3125rem 0.3125rem 0 0;
+  background: var(--white, #fff);
+  padding: 0.625rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.theme_title {
+  margin: 0;
+  color: var(--input-text-active, #333);
+  font-family: Sora;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.theme_text {
+  color: var(--upload-box-border, #c4c4c4);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin: 0;
+  margin-left: auto;
+}
+
+.hline {
+  width: 100%;
+  height: 0.0625rem;
+  background: #eee;
+}
+
+.key_issues_div {
+  border-radius: 0 0 0.3125rem 0.3125rem;
+  background: var(--white, #fff);
+  padding: 0.625rem 1.25rem;
+}

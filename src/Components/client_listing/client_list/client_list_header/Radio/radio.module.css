@@ -1,0 +1,17 @@
+.radio {
+  margin: 0.9375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  color: var(--Secondary-Text, #6f6f6f);
+  font-size: 0.6875rem;
+  font-weight: 500;
+}
+
+.radio input {
+  margin: 0;
+}
+
+.radio:hover label {
+  cursor: pointer;
+}

@@ -1,0 +1,351 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.grid_container {
+  height: 80%;
+  display: grid;
+  flex: 1 1 auto;
+  grid-template-columns: 20% 80%;
+  overflow: scroll;
+}
+
+.grid_container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Rating model design */
+.rating_model {
+  color: var(--upload-box-border, #c4c4c4);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 2rem 1.5rem;
+}
+
+/* leftnavbar  */
+.left_section {
+  height: 80%;
+  padding: 0.625rem;
+}
+
+.environment {
+  width: 89%;
+  /* height: 2.5rem; */
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: var(--viv-blue, #3f3ffc);
+  color: var(--white, #f8f6f6);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 0.4375rem;
+}
+.gap {
+  margin-left: 0.25rem;
+}
+.environment:hover,
+.environment.active {
+  background-color: rgb(31, 18, 214);
+}
+
+.encoso {
+  color: var(--input-label, #000);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.625rem;
+  width: 89%;
+}
+
+.encosoff {
+  margin-left: 1.25rem;
+  margin: 0;
+}
+
+.dottext {
+  margin-left: 1.25rem;
+  cursor: pointer;
+  padding: 0.0625rem;
+  display: flex;
+  direction: column;
+}
+.dotbold {
+  font-size: medium;
+  color: #5d5c5c;
+  margin-top: 0.25rem;
+}
+.texonly {
+  color: var(--secondary-text, #6e6d6d);
+  font-family: Montserrat;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0.625rem;
+  margin-left: 0.1875rem;
+}
+.dottext:hover {
+  background-color: rgb(237, 237, 240);
+}
+
+.rightnavbar {
+  background-color: rgb(250, 250, 250);
+}
+/* right navbar first */
+/* right first */
+.dasclibea {
+  display: flex;
+  direction: column;
+  gap: 1.375rem;
+  margin-top: 0.5625rem;
+}
+
+.dashicon {
+  display: flex;
+  direction: column;
+  gap: 0.3125rem;
+  cursor: pointer;
+}
+
+.dasclibeat {
+  color: #5d5c5c;
+  font-family: Montserrat;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.3125rem;
+}
+
+/* right second */
+.rightf {
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  background: var(--white, #f8f6f6);
+  display: flex;
+  direction: column;
+  margin-top: 0.4375rem;
+  margin-bottom: 0.1875rem;
+}
+
+.rffi {
+  margin-left: 0.25rem;
+}
+
+.rfs {
+  color: var(--viv-blue, #1900c0);
+  font-family: Sora;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 0.625rem;
+  margin-top: 0.5rem;
+}
+
+.rftm {
+  display: inline-flex;
+  padding: 0.5rem 1.125rem;
+  align-items: flex-start;
+  gap: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: var(--input-box-background, #f8f8f8);
+  margin-left: 4.375rem;
+}
+
+.rfti {
+  margin-top: 0.375rem;
+}
+
+.rft {
+  color: var(--secondary-text, #6f6f6f);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0.5rem;
+}
+
+.rffim {
+  display: inline-flex;
+  padding: 0.3125rem 0.625rem;
+  align-items: flex-start;
+  gap: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: var(--input-box-background, #f8f8f8);
+  margin-left: 4.375rem;
+}
+
+.rffi {
+  margin-top: 0.375rem;
+}
+
+.rff {
+  color: var(--secondary-text, #6f6f6f);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 0.5rem;
+}
+
+/* right second  */
+.rights {
+  padding: 0.125rem;
+  background-color: white;
+}
+/* right second first */
+.rightsf {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  direction: column;
+  padding: 0.3125rem;
+  background-color: #ffffff;
+}
+
+.rightsft {
+  color: var(--input-label, #383737);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0.4375rem;
+}
+
+/* right second second */
+.rightss {
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 0.1875rem;
+  background: #fffcf4;
+  color: var(--viv-yellow, #f7bf21);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rightstt {
+  color: var(--secondary-text, #6f6f6f);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* right second first indicators response comments */
+
+/* right second first indicators */
+.rightstfirstindicatortext {
+  color: var(--secondary-text, #6f6f6f);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  flex-shrink: 0;
+  border-radius: 0.1875rem;
+  background: var(--input-box-background, #ffffff);
+  width: 18.75rem;
+  margin-left: 0.1875rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* right second first check bo yes or no */
+.rightstfirstresponsecheck {
+  margin-top: 2.5rem;
+}
+
+/* textbox for input textfield number  */
+
+.textbox input {
+  width: 6.25rem;
+  margin-top: 2.5rem;
+  margin-left: 0.3125rem;
+}
+
+/* right second first comments textarea */
+
+.ctextarea {
+  width: 20rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+  border-radius: 0.1875rem;
+  border: 0.0625rem solid var(--borders-dividers, #f7f5f5);
+  background: var(--white, #fff);
+  border-color: rgb(206, 205, 203);
+}
+
+/* bottom navbar */
+.bottom_navbar {
+  width: 100%;
+  height: 10%;
+  background: var(--white, #fffefe);
+  box-shadow: 0.875rem -0.5rem 1.5625rem 0 rgba(0, 0, 0, 0.08);
+  padding: 1rem 2rem;
+  gap: 2rem;
+}
+
+.savedraft {
+  display: inline-flex;
+  align-items: flex-start;
+  border-radius: 0.1875rem;
+  border: 0.0625rem solid var(--viv-blue, #1900c0);
+  color: var(--viv-blue, #1900c0);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0.625rem;
+  margin-left: 80%;
+  cursor: pointer;
+}
+
+.generatereport {
+  display: inline-flex;
+  align-items: flex-start;
+  border-radius: 0.1875rem;
+  border: 0.0625rem solid var(--viv-blue, #1900c0);
+  box-shadow: blue;
+  color: var(--viv-blue, #1900c0);
+  font-family: Montserrat;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+.generatereport:hover {
+  background-color: blue;
+}
+.savedraft:hover {
+  background-color: blue;
+}

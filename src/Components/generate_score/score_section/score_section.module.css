@@ -1,0 +1,79 @@
+.score_section {
+  flex: 1 1 auto;
+  border-radius: 0.3125rem 0.3125rem 0 0;
+  background: var(--White, #fff);
+  padding: 0.625rem 3rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+div .gaugeComponent svg g g:nth-child(3) text {
+  display: none;
+}
+div.gaugeComponent svg {
+  width: 20.7rem !important;
+}
+
+div.gaugeComponent svg g g:nth-child(5) text,
+div.gaugeComponent svg g g:nth-child(7) text,
+div.gaugeComponent svg g g:nth-child(9) text,
+div.gaugeComponent svg g g:nth-child(11) text,
+div.gaugeComponent svg g g:nth-child(13) text,
+div.gaugeComponent svg g g:nth-child(15) text,
+div.gaugeComponent svg g g:nth-child(17) text {
+  font-size: 0.65rem !important;
+}
+div.gaugeComponent svg g g:nth-child(4) text,
+div.gaugeComponent svg g g:nth-child(6) text,
+div.gaugeComponent svg g g:nth-child(8) text,
+div.gaugeComponent svg g g:nth-child(10) text,
+div.gaugeComponent svg g g:nth-child(12) text,
+div.gaugeComponent svg g g:nth-child(14) text,
+div.gaugeComponent svg g g:nth-child(16) text {
+  display: none !important;
+}
+
+.individual_scores_div {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.esg_score_div {
+  border-radius: 0.1875rem;
+  background: #fcfbfc;
+  margin: 0.625rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.esg_score_div_title {
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6f6f6f;
+  margin: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.esg_score_chart_div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.esg_score_chart_div2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.esg_score_chart_div2_text {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}

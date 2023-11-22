@@ -1,0 +1,38 @@
+.middle {
+  width: 91.5%;
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+  color: var(--input-label, #000);
+  margin: 0.625rem 0;
+  margin-left: auto;
+  border-radius: 0.3125rem;
+}
+
+.middle:hover {
+  background: var(--background-light-viv-blue, #f8f6ff);
+  cursor: pointer;
+}
+
+.middle svg:last-child {
+  margin-left: auto;
+}
+
+.title {
+  width: 80%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.inner_list_container {
+  max-height: 0;
+  width: 100%;
+}
+
+.inner_list_container_open {
+  max-height: 31.25rem;
+  width: 100%;
+  transition: max-height 0.5s linear;
+}
+

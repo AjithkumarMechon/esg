@@ -1,0 +1,64 @@
+.headerText {
+  color: #1900c0;
+  font-size: 20px;
+  font-family: Sora;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.headerPara {
+  color: #6f6f6f;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+.dashboard {
+  width: auto;
+  padding: 1.8rem;
+  background-color: #f9f9f9;
+  height: 100%;
+}
+
+.gridContent {
+  display: grid;
+  margin: 0 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  grid-gap: 0.5em;
+  height: 85%;
+}
+.inactiveIcon,
+.activeIcon {
+  width: 12rem;
+  cursor: pointer;
+  height: 100%;
+}
+
+.Welcome {
+  padding-left: 4rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+.Welcome_icon {
+  height: 100%;
+}
+.loginSection,
+.logoutSection {
+  display: flex;
+  align-items: center;
+}
+
+.clockComponent {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.loginInfo {
+  color: #6f6f6f;
+  font-size: 0.7rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.loginInfo span:nth-child(1) {
+  font-weight: 700;
+}

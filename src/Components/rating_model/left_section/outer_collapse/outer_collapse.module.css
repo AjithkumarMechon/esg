@@ -1,0 +1,43 @@
+.outer {
+  width: 100%;
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-text, #6f6f6f);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 0.625rem 0;
+  border-radius: 0.3125rem;
+  gap: 0.5rem;
+}
+
+.outer:hover {
+  background: var(--background-light-viv-blue, #f8f6ff);
+  cursor: pointer;
+}
+
+.outer svg:last-child {
+  margin-left: auto;
+}
+
+.active {
+  composes: outer;
+  background: var(--viv-blue, #1900c0);
+  color: var(--white, #fff);
+}
+
+.active:hover {
+  background: var(--viv-blue, #1900c0);
+  color: var(--white, #fff);
+}
+
+.middle_collapse_container {
+  max-height: 0;
+  width: 100%;
+}
+
+.middle_collapse_container_open {
+  max-height: 31.25rem;
+  width: 100%;
+  transition: max-height 0.5s linear;
+}
